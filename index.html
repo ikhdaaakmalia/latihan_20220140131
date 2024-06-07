@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sepatu</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Sepatu</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="https://i.pinimg.com/236x/a8/30/50/a8305053a91720585bec6ba6825b1178.jpg" alt="Running Shoes" class="product-image">
+                    <h3>Casual Shoes</h3>
+                    <p class="product-price">Rp. 200.000</p>
+                    <button class="order-button" data-product="Casual Shoes" data-price="200000">Pesan Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/236x/b6/7f/ec/b67fecae6a99634cc0c60e85bedbdbf3.jpg" alt="Basketball Shoes" class="product-image">
+                    <h3>Daily Shoes</h3>
+                    <p class="product-price">Rp. 300.000</p>
+                    <button class="order-button" data-product="Daily Shoes" data-price="300000">Pesan Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/236x/c8/5a/23/c85a23ae5656fe5ff68f186a611685f1.jpg" alt="Casual Shoes" class="product-image">
+                    <h3>Flat Shoes</h3>
+                    <p class="product-price">Rp. 150.000</p>
+                    <button class="order-button" data-product="Flat Shoes" data-price="150000">Pesan Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/236x/0a/f6/de/0af6deab8ac4496e6bce330a8ef4286a.jpg" alt="Soccer Cleats" class="product-image">
+                    <h3>Running Cleats</h3>
+                    <p class="product-price">Rp. 500.000</p>
+                    <button class="order-button" data-product="Running Cleats" data-price="500000">Pesan Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/564x/5b/5a/45/5b5a4512f0044ea1ca4337eccb3ab052.jpg" alt="Hiking Boots" class="product-image">
+                    <h3>casual shoes</h3>
+                    <p class="product-price">Rp. 200.000</p>
+                    <button class="order-button" data-product="Hiking Boots" data-price="90000">Pesan Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/236x/45/e8/2a/45e82abadc90eaea28c53f4b9212ce84.jpg" alt="Hiking Boots" class="product-image">
+                    <h3>girl shoes</h3>
+                    <p class="product-price">Rp. 300.000</p>
+                    <button class="order-button" data-product="Hiking Boots" data-price="90000">Pesan Sekarang</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
